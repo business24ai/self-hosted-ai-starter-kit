@@ -1,5 +1,6 @@
-# create custom folder
+# Custom folder
 
+## Create custom folder
 ```
 docker exec -it n8n /bin/sh
 
@@ -12,5 +13,5 @@ pwd
 exit
 ```
 
-## Make sure folder exists
+## Make sure custom folder exists
 /home/node/.n8n/custom 
