@@ -15,3 +15,14 @@ exit
 
 ## Make sure custom folder exists
 /home/node/.n8n/custom 
+
+## if you want to delete a folder
+```
+docker exec -it --user root n8n /bin/sh
+
+cd /home/node/.n8n/custom
+ls -la
+rm -rf <folder>
+ls -la
+exit
+```
